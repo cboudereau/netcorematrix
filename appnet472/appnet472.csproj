@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9FE53B1E-6926-412B-B3BB-CAEA46C62B29}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>appnet472</RootNamespace>
+    <AssemblyName>appnet472</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\appnet20\appnet20.csproj">
+      <Project>{377377f8-3dc4-43f9-8842-ae341c501293}</Project>
+      <Name>appnet20</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\appnet35\appnet35.csproj">
+      <Project>{27b8d647-d0c3-4807-a837-502598082996}</Project>
+      <Name>appnet35</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\appnet461\appnet461.csproj">
+      <Project>{3dbfbbeb-e24a-48c5-acab-2f8582d127c7}</Project>
+      <Name>appnet461</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libnet20\libnet20.csproj">
+      <Project>{380c3b4a-0ccd-434b-bbc4-b87f7393e3ef}</Project>
+      <Name>libnet20</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libnet35\libnet35.csproj">
+      <Project>{c49fc67d-9e99-43ad-a7ee-d3bc8415fc30}</Project>
+      <Name>libnet35</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libnet461\libnet461.csproj">
+      <Project>{85544d83-5d2e-4a93-bb9c-cdb63b1476ed}</Project>
+      <Name>libnet461</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libnet472\libnet472.csproj">
+      <Project>{0e07d22e-da40-4c2a-b626-7314e1be3ab1}</Project>
+      <Name>libnet472</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libnetstandard16\libnetstandard16.csproj">
+      <Project>{fe162499-e081-4891-9e26-d79a1399e5ed}</Project>
+      <Name>libnetstandard16</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libnetstandard\libnetstandard.csproj">
+      <Project>{3163a4e6-2aed-403f-aec4-7583e9365681}</Project>
+      <Name>libnetstandard</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

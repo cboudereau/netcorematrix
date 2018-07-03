@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\libnet20\libnet20.csproj" />
+    <ProjectReference Include="..\libnet35\libnet35.csproj" />
+    <ProjectReference Include="..\libnet461\libnet461.csproj" />
+    <ProjectReference Include="..\libnetcore11\libnetcore11.csproj" />
+    <ProjectReference Include="..\libnetcore\libnetcore.csproj" />
+    <ProjectReference Include="..\libnetstandard16\libnetstandard16.csproj" />
+    <ProjectReference Include="..\libnetstandard\libnetstandard.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\libnet461\libnet461.csproj" />
+    <ProjectReference Include="..\libnet472\libnet472.csproj" />
+    <ProjectReference Include="..\libnetstandard16\libnetstandard16.csproj" />
+  </ItemGroup>
+
+</Project>
