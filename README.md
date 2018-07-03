@@ -20,4 +20,5 @@
 | netcoreapp1.1  |       |       | X      | X      | X              | X             |               |                |
 | netcoreapp2.0  | X     | X     | X      | X      | X              | X             | X             | X              |
 | netstandard2.0 | X     | X     | X      | X      | X              |               |               | X              |
+
 ***app*** : means console app for example.
