@@ -10,7 +10,7 @@
 
 ## Compatibility matrix
 
-| ﻿TF/Compat      | net20 | net35 | net461 | net472 | netstandard1.6 | netcoreapp1.1 | netcoreapp2.0 | netstandard2.0 |
+| TF/Compat      | net20 | net35 | net461 | net472 | netstandard1.6 | netcoreapp1.1 | netcoreapp2.0 | netstandard2.0 |
 |----------------|-------|-------|--------|--------|----------------|---------------|---------------|----------------|
 | net20          | X     |       |        |        |                |               |               |                |
 | net35          | X     | X     |        |        |                |               |               |                |
@@ -20,3 +20,4 @@
 | netcoreapp1.1  |       |       | X      | X      | X              | X             |               |                |
 | netcoreapp2.0  | X     | X     | X      | X      | X              | X             | X             | X              |
 | netstandard2.0 | X     | X     | X      | X      | X              |               |               | X              |
+***app*** : means console app for example.
