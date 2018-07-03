@@ -1,8 +1,10 @@
 ﻿# dotnet core compatibility sandbox : 
 
+If you think there is something wrong or incomplete, please submit a PR.
+
 ## Usefull links
-	- msbuild TargetFramework : https://docs.microsoft.com/en-us/dotnet/standard/frameworks
-	- framework compatibility : https://docs.microsoft.com/en-us/dotnet/core/porting/third-party-deps
+	- [msbuild TargetFramework](https://docs.microsoft.com/en-us/dotnet/standard/frameworks)
+	- [framework compatibility](https://docs.microsoft.com/en-us/dotnet/core/porting/third-party-deps)
 
 ## Compatibility matrix
 
